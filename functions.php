@@ -16,6 +16,7 @@ function my_script_init()
   // JavaScript読み込み
   wp_enqueue_script('my-script', get_template_directory_uri() . '/assets/js/script.js', array(), filemtime(get_theme_file_path('assets/js/script.js')), true);
 }
+add_action('wp_enqueue_scripts', 'my_script_init');
 /**
  * セキュリティー対策
  */
