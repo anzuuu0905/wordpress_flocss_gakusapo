@@ -8,8 +8,8 @@
 - ターミナルで、cd gulp　を実行
 - npm i を実行
 - gulpフォルダにnode_modules、package-lock.jsonが生成されたことを確認
-- 「 npx gulp 」とコマンドを入力すると動き出します
 - gulpfile.jsのproxyの設定「http://XXXXX.local/」をWordPressのローカル環境のアドレスに変更してください
+- 「 npx gulp 」とコマンドを入力すると動き出します
 
 ## 仕様
 - スマホファースト、PCファーストを設定で切り替え可能です。
