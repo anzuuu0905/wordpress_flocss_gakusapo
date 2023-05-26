@@ -38,7 +38,7 @@ function javascript() { return src('../src/js/**/*')
 }
 
 const browserSyncOption = {
-  proxy: "http://wordpressgulpgakusapo.local/",// ローカルにある「Site Domain」に合わせる
+  proxy: "http://XXXXX.local/",// ローカルにある「Site Domain」に合わせる
   // baseDir: '../assets'//gulpfile.jsの格納場所からの相対パスを記述する必要あり
   notify: false,// ブラウザ更新時に出てくる通知を非表示にする
   // open: "external",// ローカルIPアドレスでサーバを立ち上げる
