@@ -1,21 +1,16 @@
-// Strictモードの有効化
-"use strict";
+jQuery(function ($) { // $はjQueryを表す
+// この中にコードを書く
 
-// サンプルコード
-// DOMの読み込み完了を待つ
-document.addEventListener("DOMContentLoaded", function () {
-  // 変数、関数、イベントリスナーの初期化
-  // 変数
-  const button = document.querySelector(".c-btn");
+// 例：クラスがc-btnのcolorを黒色にする
+// $(".c-btn").css("color","black")
 
-  // 関数
-  function handleClick() {
-    console.log("Button clicked");
-  }
+// 例：idがbuttonのテキストを変更
+// $("#button").text("ボタンのテキストを変更");
 
-  // イベントリスナー
-  if (button) {
-    button.addEventListener("click", handleClick);
-  }
+// 例：クラスがc-btnをクリックした場合、コンソールログを出力
+// $(".c-btn").click(function() {
+//   console.log("ボタンがクリックされました！");
+// });
+
 
 });
