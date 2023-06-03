@@ -126,6 +126,7 @@ a {
   color: inherit;
   transition: opacity 0.3s;
 }
+
 @media screen and (min-width: 768px) {
   a:hover {
     opacity: 0.8;
