@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main>
-  front-page.php
+  <h2 class="c-title">front-page.php</h2>
 </main>
 
 <?php get_footer(); ?>

@@ -16,18 +16,21 @@
     }
   }
 // PCファースト
-}@else{
-  .c-title{
+}@else {
+  .c-title {
     font-size: rem(24);
-    color: black;
-    @include mq(xl){
     color: green;
+
+    @include mq(xl) {
+      color: blue;
     }
-    @include mq(lg){
-    color: blue;
+
+    @include mq(lg) {
+      color: red;
     }
-    @include mq(md){
-    color: red;
+
+    @include mq(md) {
+      color: black;
     }
   }
 }
