@@ -99,19 +99,19 @@ select {
 html {
   font-size: 16px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 375px) {
+  html {
+    font-size: 4.2666666667vw;
+  }
+}
+@media screen and (min-width: 768px) {
   html {
     font-size: 1.3333333333vw;
   }
 }
-@media screen and (max-width: 767px) {
+@media (min-width: 1200px) {
   html {
     font-size: 16px;
-  }
-}
-@media (max-width: 375px) {
-  html {
-    font-size: 4.2666666667vw;
   }
 }
 
@@ -127,12 +127,9 @@ a {
   transition: opacity 0.3s;
 }
 
-a:hover {
-  opacity: 0.8;
-}
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   a:hover {
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 
@@ -156,21 +153,21 @@ a:hover {
 
 .c-title {
   font-size: 1.5rem;
-  color: green;
+  color: black;
 }
-@media screen and (max-width: 1199px) {
-  .c-title {
-    color: blue;
-  }
-}
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 768px) {
   .c-title {
     color: red;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 1000px) {
   .c-title {
-    color: black;
+    color: blue;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .c-title {
+    color: green;
   }
 }
 /*# sourceMappingURL=style.css.map */
