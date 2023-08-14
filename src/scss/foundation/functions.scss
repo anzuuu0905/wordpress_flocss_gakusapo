@@ -4,7 +4,7 @@
 /*****************************************
  * 数値から単位を取り除く
  * 参考
- * https: //css-tricks.com/snippets/sass/
+ * https://css-tricks.com/snippets/sass/
 ******************************************/
 @function strip-unit($number) {
   @if type-of($number)=="number" and not unitless($number) {
@@ -16,7 +16,7 @@
 /*****************************************
  * px→remの計算
  * 参考
- * https: //webdou.net/sass-rem/
+ * https://webdou.net/sass-rem/
  * Sassではmath.div関数の使用が推奨のため、スラッシュ(/)演算子から変更
 ******************************************/
 @function rem($pixels) {

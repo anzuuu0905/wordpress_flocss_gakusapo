@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*
  * 参考
- * https: //github.com/Andy-set-studio/modern-css-reset/blob/master/src/reset.css
+ * https://github.com/Andy-set-studio/modern-css-reset/blob/master/src/reset.css
 */
 /* Box sizing rules */
 *,
@@ -16,6 +16,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 figure,
 blockquote,
@@ -82,12 +84,12 @@ select {
 /*****************************************
  * 数値から単位を取り除く
  * 参考
- * https: //css-tricks.com/snippets/sass/
+ * https://css-tricks.com/snippets/sass/
 ******************************************/
 /*****************************************
  * px→remの計算
  * 参考
- * https: //webdou.net/sass-rem/
+ * https://webdou.net/sass-rem/
  * Sassではmath.div関数の使用が推奨のため、スラッシュ(/)演算子から変更
 ******************************************/
 /*****************************************
