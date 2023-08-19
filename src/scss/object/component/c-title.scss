@@ -3,7 +3,7 @@
 // SPファースト
 @if $break-flg == 0 {
   .c-title{
-    font-size: rem(24);
+    font-size: prem(24);
     color: black;
     @include mq(md){
     color: red;
@@ -18,7 +18,7 @@
 // PCファースト
 }@else {
   .c-title {
-    font-size: rem(24);
+    font-size: prem(24);
     color: green;
 
     @include mq(xl) {
