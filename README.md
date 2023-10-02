@@ -18,5 +18,6 @@
 - コンパイル後のコードはdistフォルダに格納される
 - phpは直下のファイルの内容を修正する
 - SassをCSSにコンパイル実施
+- 　Gulpでコンパイルを実施するため、DartJS Sass Compiler and Sassなどの拡張機能は、無効化してご利用ください
 - 画像の圧縮を実施
 - JavaScriptの圧縮は未実施
